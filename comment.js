@@ -29,7 +29,7 @@ app.get('/comments', function (req, res) {
         } else {
             res.json(results);
         }
-    });
+    });  
 });
 
 //API: POST /comment
